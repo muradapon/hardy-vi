@@ -10,9 +10,14 @@
     color: #FD6E0A;
 }
 /* share style */
-
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
+}
+main{
+    background-image: url(../images/developer.png);
 }
 
 /* nav style */
@@ -20,7 +25,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 230px;
+    margin: 0 200px;
 }
 nav h2{
     font-size: 45px;
@@ -38,6 +43,37 @@ nav ul li a{
     text-decoration:none;
     font-size: 20px;
 }
+.banner, header{
+    background-color: #FFF8F3;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+
+}
+.banner-content{
+    width: 50%;
+    margin:0 200px;
+}
+.banner img{
+    width: 584px;
+    height: 675px;
+}
+.banner-grettings{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+   margin: 5px 0px 20px 0px;
+}
+.banner-describtion{
+    margin-bottom: 30px;
+}
 .btn{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -46,5 +82,15 @@ nav ul li a{
     border: none;
     border-radius: 5px;
     color: #ffffff;
+}
+.btn-2{
+ background-color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    color: #FD6E0A;
+    margin-left: 30px;   
 }
 
